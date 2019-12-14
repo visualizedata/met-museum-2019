@@ -1,0 +1,290 @@
+{
+  "projects" : [
+	{
+		"title": "Ambient Sounds",
+		"title_full": "Ambient Sounds",
+		"description": "Visualizing sound levels across twelve spaces. A first pass proof-of concept for a platform/tool in which museums could record ambient sound in their galleries and upload photos of the spaces to generate audio visualizations.",
+		"url": "http://www.bradmack.com/ambient-met",
+		"author": "Brad MacDonald",
+		"image": "TheMet_Map - Brad MacDonald.jpg"
+	},
+	{
+		"title": "Apple of My Eyes",
+		"title_full": "Apple of My Eyes",
+		"description": "Apples appear in many religious traditions, often as a mystical or forbidden fruit. Renaissance painters may also have been influenced by the story of the golden apples in the Garden of Hesperides. As a result, in the story of Adam and Eve, the apple became a symbol for knowledge, immortality and temptation.\n\nDo artists just pick apple as a random fruit to depict in their artworks or is it highly associated with cultural significance? If it is then within Met’s collection, which continent uses apple as a metaphor more than others? And which media is more popular being used to depict apples?",
+		"url": "http://xingwei.work/#/apple-of-my-eyes/",
+		"author": "Xingwei Huang",
+		"image": "a - Xingwei Huang.jpg"
+	},
+	{
+		"title": "Apple of the Met",
+		"title_full": "Apple of The Met",
+		"description": "Apple of The Met is an interactive counter piece for the Apple of My Eyes. Through this linear narrative journey audience can look closer and appreciate each apple which usually have been ignored from the frame. Also dive into different aspects of apples inside met collection to see which culture uses apple more frequently than the other.",
+		"url": "http://xingwei.work/#/apple-of-the-met/",
+		"author": "Xingwei Huang",
+		"image": "H1 - Xingwei Huang.png"
+	},
+	{
+		"title": "Artifacts of Colonialist Language",
+		"title_full": "Artifacts of Colonialist Language",
+		"description": "I wanted to explore the idea of colonialism through the use of language on The Met’s website. I spoke with a number of museum writers about the language they avoid when writing copy for exhibitions and narrowed the list down to exotic, primitive and Oriental. I was ready to develop a web scraper then realized The Met has a really robust search function on their website that includes filters for department. The results were both unsurprising and surprising. I expected there to reveal usage of these words but was shocked by the prevalence of the word primitive, and that all but 300 of its 3506 uses appears in the Arts of Africa, Oceania, and the Americas department.",
+		"url": "http://www.bradmack.com/colonialist-language",
+		"author": "Brad MacDonald",
+		"image": "ColonialistLanguage - Brad MacDonald.jpg"
+	},
+	{
+		"title": "BUDDHAS AT THE MET",
+		"title_full": "BUDDHAS AT THE MET",
+		"description": "Buddhas at the Met is a data visualization project studying the facial features of Met's collections of buddha sculptures, through computer vision imaging processing. This project seeks to understand how buddha sculptures reflect the religion's process of morphing and changing to adapt to different countries and cultures.",
+		"url": "https://shuvitran.github.io/MetPartnershipProjectsDoc/BuddhasAtTheMet/",
+		"author": "Dan Ran",
+		"image": "BuddhasAtTheMetProfile - Dan Ran.jpg"
+	},
+	{
+		"title": "CeramicBeats",
+		"title_full": "CeramicBeats",
+		"description": "The sound of ceramics makes each of them unique. In the MET, it is not possible to knock on the collections to hear their sound. With this web app (designed for the best experience on tablets), you will be able to create your own beat sequence with the typical sound of each ceramic type. Each pad cell will display an object in the corresponding type.",
+		"url": "https://azuic.github.io/CeramicBeats/",
+		"author": "Zui Chen",
+		"image": "Screen Shot 2019-12-10 at 11.37.35 AM - Zui Chen.png"
+	},
+	{
+		"title": "Culture Timeline",
+		"title_full": "The Met: A Culture Timeline",
+		"description": "The vast size of the Metropolitan Museum of Art's collection presented the opportunity to utilize it as a proxy for understanding the interaction of civilizations over time. I was interested to learn if its almost 500,000 objects contained a hidden story that could be uncovered with visualization techniques.",
+		"url": "https://dangrunebaum.github.io/met-quant/",
+		"author": "Dan Grunebaum",
+		"image": "2. cultures-wide - Daniel Grunebaum.png"
+	},
+	{
+		"title": "Disappearance",
+		"title_full": "Disappearance",
+		"description": "Healthy oceans are sign of a healthy planet. This visualization attempts to showcase the story of dying oceans by exploring contents of the painting “Ocean Life” by James M. Sommerville.",
+		"url": "https://salonieshah.github.io/Major-Studio-1/4.Disappearance/",
+		"author": "Saloni Shah",
+		"image": "disappearance - Saloni Naishad Shah.JPG"
+	},
+	{
+		"title": "Evolation of Arms and Armor",
+		"title_full": "Evolution of Arms and Armor",
+		"description": "This project explores how medieval foot soldier arms and armor evolved throughout the centuries.",
+		"url": "https://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Qualitative/index.html",
+		"author": "Antonie C. Dreyer",
+		"image": "Antonie_2_Qual_ArmsArmor - Antonie Dreyer.png"
+	},
+	{
+		"title": "Exhibition Palettes",
+		"title_full": "Exhibition Palettes: The Costume Institute",
+		"description": "How does the theme of the annual Costume Institute exhibition, contribute to the visual identity? To explore this topic, I created a colour analysis to evaluate the associations of the colour based on the theme and question how the exhibitions compare over a five-year period of time. Due to this time span, I am comparing Camp: Notes on Fashion (2019), Heavenly Bodies: Fashion and the Catholic Imagination (2018), Rei Kawakubo/Comme des Garcons: Art of the In-Between (2017), Manus x Machina: Fashion in an Age of Technology (2016) and China: Through the Looking Glass (2015).",
+		"url": "http://lulutanenbaum.com/portfolio/exhibition-palettes-the-costume-institute/",
+		"author": "Lulu Tanenbaum",
+		"image": "qual1 - Lulu Tanenbaum.jpg"
+	},
+	{
+		"title": "Fender vs Gibson",
+		"title_full": "Fender vs Gibson: The Great Guitar Debate",
+		"description": "Fender and Gibson defined the sound of rock. Explore the ties between the two legendary guitar makers and rockstars featured in the Met’s “Play it Loud” exhibition.",
+		"url": "https://dangrunebaum.github.io/fender-vs-gibson/index.html",
+		"author": "Dan Grunebaum",
+		"image": "1. desktop-graph - Daniel Grunebaum.png"
+	},
+	{
+		"title": "Happle",
+		"title_full": "Happle",
+		"description": "Happle is a further branch out of the Apple of The Met, it works as the digital complement for the website. While previous website design presents users with a story about apple. This app helps visitors in the offline experience of navigating inside Met to find Apple. This app emphasizes at different parts of the content based on whether the user is currently inside or outside the Met Museum",
+		"url": "http://xingwei.work/#/happle/",
+		"author": "Xingwei Huang",
+		"image": "appIn_Out - Xingwei Huang.png"
+	},
+	{
+		"title": "Let the music play!",
+		"title_full": "Let the music play!",
+		"description": "This is an interactive project based on Met's instruments collection. The project aims to provide the audience with a sensual association between the 24 instruments and their sounds.",
+		"url": "https://shuvitran.github.io/MetPartnershipProjectsDoc/LetTheMusicPlay/",
+		"author": "Dan Ran",
+		"image": "2 - Dan Ran.png"
+	},
+	{
+		"title": "MET Stories",
+		"title_full": "MET Stories",
+		"description": "We all have things in common, we might be the same age, born in the same place, we went to the same college; the possibilities are almost endless. The same theory can be applied to the artworks in The MET collection. MET Stories creates allows to user to pick a topic to see a dynamically generated timeline and story linking all of the artworks together through time, people, places and content.",
+		"url": "https://neil-oliver.github.io/Major-Studio-1/",
+		"author": "Neil Oliver",
+		"image": "timeline-2 - Neil Oliver.png"
+	},
+	{
+		"title": "Met Masquerade",
+		"title_full": "Met Masquerade",
+		"description": "This is an AR interactive experience prototype based on the Met’s Mask collection.",
+		"url": "https://shuvitran.github.io/MetPartnershipProjectsDoc/MetMasquerade/",
+		"author": "Dan Ran",
+		"image": "MetMasqueradeProfile - Dan Ran.jpg"
+	},
+	{
+		"title": "Met Search Engine",
+		"title_full": "The Trilogy of the Met search engine",
+		"description": "All three projects explore how to search and push Met's collection in different ways.",
+		"url": "https://github.com/caixingyang1228/MetProject_Final/blob/master/README.md",
+		"author": "Xingyang Cai",
+		"image": "p2.2 - Xingyang Cai.jpg"
+	},
+	{
+		"title": "New Media Art",
+		"title_full": "Has The Met adopted New Media Art?",
+		"description": "The Met is a pivotal example of a legacy museum. The collection is vast and encompasses some of the most fundamental pieces of art and artifacts. However, the negative connotations of legacy can suggest traditional standards or practices, which might not suggest the new nuances of contemporary art. This led to my questioning for this quantitative data visualization; has The Met adopted new media art? What types of new media art do they collect? What is the makeup of this collection?",
+		"url": "http://lulutanenbaum.com/portfolio/met-new-media/",
+		"author": "Lulu Tanenbaum",
+		"image": "quant1 - Lulu Tanenbaum.jpg"
+	},
+	{
+		"title": "Quantifying the MET Collection",
+		"title_full": "Quantifying the MET Collection",
+		"description": "This project explores what the entire MET collection consists of and how much of it is there.",
+		"url": "http://htmlpreview.github.io/?https://github.com/acdreyer/PGDV5200_MajorStudio1/blob/master/Project_Quantitative/index.html",
+		"author": "Antonie C. Dreyer",
+		"image": "Antonie_1_Quant_Packedbars - Antonie Dreyer.png"
+	},
+	{
+		"title": "Rated Art",
+		"title_full": "Rated Art",
+		"description": "Three works of art from the Met’s collection, ranked via survey by 30 respondents. A proof-of-concept test of a larger idea in which users rank art on a live website and this data is collected and visualized.",
+		"url": "http://www.bradmack.com/rated-art",
+		"author": "Brad MacDonald",
+		"image": ""
+	},
+	{
+		"title": "Ring of Ceramics",
+		"title_full": "Ring of Ceramics",
+		"description": "Each country has a unique ring that resents the proportion of each ceramic type in the MET ceramics collection. Each type of ceramics will have a different color representation and takes one slice indicating its proportion in all the ceramics from the corresponding country.",
+		"url": "https://azuic.github.io/ceramic-rings/",
+		"author": "Zui Chen",
+		"image": "zui-ring-of-ceramics.png"
+	},
+	{
+		"title": "Sculptures of Scale",
+		"title_full": "Sculptures of Scale",
+		"description": "The Metropolitan Museum of Art has made nearly 500,000 pieces of art publicly available through its online collection. Anyone with access to a browser can now view the collection’s images virtually. However, when we view these images in a virtual space, we lose the sense of scale we get when we visit the museum in person. This visualization explores a subset of the Met’s online collection in which scale plays a large role in the viewer experience: sculptures of human subjects.",
+		"url": "https://marisaruizasari.github.io/sculptures-of-scale-final/about.html",
+		"author": "Marisa Ruiz Asari",
+		"image": "Sculptures of Scale - Marisa Asari.png"
+	},
+	{
+		"title": "The MET Ceramics",
+		"title_full": "The MET Ceramics Lookbook",
+		"description": "Have you ever seen over 9k ceramics surface at the same time? This is a web-based lookbook for the MET ceramics. Each grid is a close-up zoom in of the object’s surface, providing extreme details of each object. The lookbook is ordered and categorized by the type of clay (different in ingredient and fire temperature): fritware, earthenware, stoneware, terracotta, porcelain, pottery, ceramic, and other.",
+		"url": "https://azuic.github.io/ceramic-rings/.",
+		"author": "Zui Chen",
+		"image": "Screen Shot 2019-12-13 at 1.22.07 PM - Zui Chen.png"
+	},
+	{
+		"title": "The Met Rosary",
+		"title_full": "The Met Rosary: Catholic Art at the Met",
+		"description": "I am interested in forms of Catholic art, and the Met collection is rich and deep in this area.  In fact, the Met's collection is so deep, it can be overwhelming to a casual observer.\n\nI felt much of this sacred art is removed from its original context.  Many of the Met's objects have been presented in Cathedrals, and some even adorned high altars, making many of them central to worship.\n\nI wanted to see if using the Met's digital collection I could present the artwork within a narrative framework, and restore the potential for these items to be used as meditative aids.    The Rosary was the perfect vehicle;  it provides both narrative and a prayer context, and it has been used for centuries, including in our present day.   Many people at least may have heard of a Rosary,  even if they do not fully understand what it is or how it works.   Thus a third goal is established; to relate the art to a devotional practice in current use.",
+		"url": "http://douglaslocke.com/rosary/docs/",
+		"author": "Douglas Locke",
+		"image": "rosaryshot - Douglas Locke.png"
+	},
+	{
+		"title": "Too Fast for the Truth",
+		"title_full": "Too fast for the truth — The laying of the first atlantic telegraph cable",
+		"description": "— Making history visible\nThe documentation of important historical creates famous iconographic artifacts. Almost everybody has seen the images of the first moon landing taken by Neil Armstrong, or the first image of the earth known as »blue marble«.\nThe engagement with the MET’s open access collection shows that the museum is also in possession of such iconographic documentation, although a lot of it is little known by public . \nAround 40 paintings by the Painter Robert Charles Dudley document the laying of the first transatlantic cables in the middle of the 18th century, a huge technological mission with impacts on the interconnected and global society we are today.\n\n— Paintings as diagrams\nThe goal of the visualization is to let the user enjoy the effects of the beautiful paintings and to augment these paintings with contextual and historical content at the same time. The paintings, grouped thematically, can be navigated as maps; the possibility to zoom gives the user control how to view the artifacts and clickable legends provide more insights about the contents of the paintings.",
+		"url": "http://robincoenen.de/perspectives-on-the-met",
+		"author": "Robin Coenen",
+		"image": "too-fast-for-the-truth - Robin Coenen.png"
+	},
+	{
+		"title": "Undress for The Met",
+		"title_full": "Undress for The Met",
+		"description": "30 years since the inception of The Guerrilla Girls infamous poster, I began to question how has The Metropolitan Museum of Art progressed? Do the values of gender inequality and female subjectification still stand true?  In a two-part project I explored this topic by creating an interactive desktop-based data visualization and a mock-up of a mobile application.",
+		"url": "http://lulutanenbaum.com/portfolio/undress-for-the-met/",
+		"author": "Lulu Tanenbaum",
+		"image": "interactive1 - Lulu Tanenbaum.jpg"
+	},
+	{
+		"title": "Visionary Landscapes",
+		"title_full": "Visionary Landscapes",
+		"description": "An experiment using existing art to make new art. And a new way to experience art. For this project I chose four 2D works of art from across a range of eras and departments at the Metropolitan Museum of Art and rendered each of them as a landscape or topographic map. I used Rembrandt’s Self Portrait, Cow's Skull: Red, White, and Blue by Georgia O'Keeffe, Elegy to the Spanish Republic No. 70 by Robert Motherwell, and A Rose by Thomas Anshutz. The final poster series shows each painting from straight-on (top down if you’re thinking in 3D) isometric perspectives. The framing around the straight-on image indicates what the image looks like from all four sides. These images were then taken into Unity to create navigable landscapes in which the user can walk around the works of art.",
+		"url": "http://www.bradmack.com/visionary-landscapes",
+		"author": "Brad MacDonald",
+		"image": "VisionaryLandscapes - Brad MacDonald.jpg"
+	},
+	{
+		"title": "What Are They Painting?",
+		"title_full": "What Are They Painting?",
+		"description": "An insight of Metropolitan Museum of Art's paintings collection. This is a data visualization of the top 10 tags of paintings from 9 countries/civilizations in four periods of time.",
+		"url": "https://shuvitran.github.io/MetPartnershipProjectsDoc/WhatAreTheyPainting/",
+		"author": "Dan Ran",
+		"image": "WhatAreTheyPaintingProfile - Dan Ran.jpg"
+	},
+	{
+		"title": "What are Aerophones?",
+		"title_full": "What are Aerophones?",
+		"description": "This project explores the MET Aerophone (wind instrument) family tree types and subtypes, as well as details on selected instrument length and frequency.",
+		"url": "https://github.com/acdreyer/PGDV5200_MajorStudio1/tree/master/Project_Interactive",
+		"author": "Antonie C. Dreyer",
+		"image": "Antonie_3_Interactive_Aerophones - Antonie Dreyer.png"
+	},
+	{
+		"title": "Wind Instruments",
+		"title_full": "Wind instrument family tree sculpture",
+		"description": "This project explored the Aerophone (wind instrument) hierarchy at the MET through construction of a physical 3D wire tree sculpture.",
+		"url": "https://github.com/acdreyer/PGDV5200_MajorStudio1/tree/master/Project_NewContexts",
+		"author": "Antonie C. Dreyer",
+		"image": "Antonie_4_NewContexts_Wiretree - Antonie Dreyer.png"
+	}
+],
+  "students": [
+  {
+    "name": "Xingyang Cai",
+    "url": "https://github.com/caixingyang1228/"
+  },
+  {
+    "name": "Zui Chen",
+    "url": "http://zui-c.com"
+  },
+  {
+    "name": "Robin Coenen",
+    "url": "http://www.robincoenen.de"
+  },
+  {
+    "name": "Antonie C. Dreyer",
+    "url": "https://acdreyer.github.io/PGDV5200_MajorStudio1/"
+  },
+  {
+    "name": "Dan Grunebaum",
+    "url": "https://tokyo-flow.com/"
+  },
+  {
+    "name": "Xingwei Huang",
+    "url": "http://xingwei.work/"
+  },
+  {
+    "name": "Douglas Locke",
+    "url": "http://douglaslocke.com/"
+  },
+  {
+    "name": "Brad MacDonald",
+    "url": "http://www.bradmack.com"
+  },
+  {
+    "name": "Neil Oliver",
+    "url": "http://neiloliver.co"
+  },
+  {
+    "name": "Dan Ran",
+    "url": "http://danranpresent.com/"
+  },
+  {
+    "name": "Marisa Ruiz Asari",
+    "url": "http://saasari.com"
+  },
+  {
+    "name": "Saloni Shah",
+    "url": "https://github.com/salonieshah"
+  },
+  {
+    "name": "Lulu Tanenbaum",
+    "url": "http://lulutanenbaum.com"
+  }
+]
+}

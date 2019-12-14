@@ -1,0 +1,24 @@
+{
+  "name": "met-museum-2019",
+  "version": "1.0.0",
+  "description": "portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visualizedata/met-museum-2019.git"
+  },
+  "author": "Zach Krall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visualizedata/met-museum-2019/issues"
+  },
+  "homepage": "https://github.com/visualizedata/met-museum-2019#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

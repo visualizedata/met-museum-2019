@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Parsons MS Data Visualization | The Met Museum | 2019</title>
+
+  <!--
+    site updated on 2019/12/12
+  -->
+
+  <!-- stylesheets -->
+  <link href="/style.78032849.css" rel="stylesheet">
+  <link href="/color.28922507.css" rel="stylesheet">
+  <link href="/bootstrap.min.108cc16f.css" rel="stylesheet">
+
+  <!-- favicons -->
+  <link rel="icon" type="image/png" href="/favicon_32x32.639b9211.png">
+
+  <!-- facebook tags -->
+  <meta property="og:title" content="Parsons MS Data Visualization | The Met Museum | 2019">
+  <meta property="og:description" content="Partnering with the Metropolitan Museum of Art, students visualize and interpret data published by the Met under their Open Access Policy.">
+  <meta property="og:image" content="http://parsons.nyc/met-museum-2019/img/social_banner.png">
+  <meta property="og:url" content="http://parsons.nyc/met-museum-2019">
+
+  <!-- twitter tags -->
+  <meta name="twitter:title" content="Parsons MS Data Visualization | The Met Museum | 2019">
+  <meta name="twitter:description" content="Partnering with the Metropolitan Museum of Art, students visualize and interpret data published by the Met under their Open Access Policy.">
+  <meta name="twitter:image" content="http://parsons.nyc/met-museum-2019/img/social_banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- wechat Tags -->
+  <meta itemprop="name" content="Parsons MS Data Visualization | The Met Museum | 2019">
+  <meta itemprop="image" content="http://parsons.nyc/met-museum-2019/img/social_banner.png">
+  <meta name="description" itemprop="description" content="Partnering with the Metropolitan Museum of Art, students visualize and interpret data published by the Met under their Open Access Policy.">
+<script src="/style.78032849.js"></script><script src="/color.28922507.js"></script><script src="/bootstrap.min.108cc16f.js"></script></head>
+
+<body>
+  <div id="app" class="container" style="display:none;">
+
+    <!-- MENU -->
+    <div id="banner">
+      <div id="menu_button_wrapper">
+        <a href="#" id="menu_button" class="right-off-canvas-toggle menu-icon"><i class="fa fa-bars"></i></a>
+        <a href="#" id="search_button" class="right-off-canvas-toggle menu-icon"><i class="fa fa-search"></i></a>
+      </div>
+
+      <div id="site_lockup">
+        <h1 class="u_name col-md-12">
+          <a href="http://newschool.edu/" target="_blank">
+              <span class="font-width-1">T</span><span class="font-width-2">h</span><span class="font-width-1">e</span><span class="font-width-1">&nbsp;</span><span class="font-width-2">N</span><span class="font-width-1">e</span><span class="font-width-3">w</span><span class="font-width-1">&nbsp;</span><span class="font-width-1">S</span><span class="font-width-1">c</span><span class="font-width-2">h</span><span class="font-width-2">o</span><span class="font-width-2">o</span><span class="font-width-3">l</span>
+          </a>
+        </h1>
+        <div class="bottom-stripe col-md-12">
+          <div class="bottom-stripe-inner"></div>
+        </div>
+
+        <div id="stripe_menu" class="col-md-12">
+          <div id="inner-menu-stripe" class="bottom-stripe">
+            <div class="bottom-stripe-inner"></div>
+          </div>
+          <h1 class="sitename"><span class="font-width-3 kern-decrease-10"><a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Data Visualization</a></span></h1>
+        </div>
+        <div class="subtitle font-width-3 kern-decrease-10 col-md-10">
+          MET Museum Partnership
+        </div>
+
+      </div>
+    </div>
+    <!-- END OF MENU -->
+
+    <!-- DESCRIPTION -->
+    <h2 class="col-md-10 col-md-offset-1">
+      Partnering with the Metropolitan Museum of Art, students visualize and interpret data published by the Met under their <a href="https://github.com/metmuseum/openaccess" target="_blank">Open Access Policy</a>.
+    </h2>
+    <!-- END OF DESCRIPTION -->
+
+    <!-- NAVIGATION -->
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <div class="font-width-3 col-xs-6">
+      2019
+    </div>
+    <div class="font-width-3 col-xs-6 text-right">
+      <a href="https://visualizedata.github.io/met-museum-2018/">2018</a>
+    </div>
+    <div class="col-md-12 col-md-10 col-md-offset-1">
+      <ul id="index2019">
+        <li v-for="project in projects">
+          <a v-bind:href="'#' + getSlug(project.title)" v-on:click="scrollToView(getSlug(project.title), $event)">
+            <span class="glyphicon glyphicon-chevron-down"></span>&nbsp;{{project.title}}
+          </a>
+        </li><li>
+      </li></ul>
+      <br>
+    </div>
+    <!-- END OF NAVIGATION -->
+
+    <!--PROJECT-->
+    <div v-for="project in projects">
+      <!--
+        everything in this div will be created
+        for each project in the data.projects array
+      -->
+      <div class="bottom-stripe col-md-12">
+        <div class="bottom-stripe-inner"><!-- stripe --></div>
+      </div>
+
+      <h3 class="col-md-12">{{ project.title }}</h3>
+
+      <div class="bottom-stripe col-md-12">
+        <div class="bottom-stripe-inner"><!-- stripe --></div>
+      </div>
+
+      <div class="project col-md-12">
+        <!-- v-bind:id on this <h3> allows for smooth scroll -->
+        <h3 class="col-md-12 no-index" v-bind:id="getSlug(project.title)">
+            <a v-bind:href="getLink(project.author)" target="_blank">
+              {{ project.author }}
+            </a>
+        </h3>
+        <br>
+        <br>
+        <p class="col-md-3">
+          <span class="title">{{
+            project.title_full.length > 0
+            ? project.title_full
+            : project.title
+          }}</span>
+        </p>
+        <p class="col-md-9">{{ project.description }}</p>
+        <img v-bind:src="getImageURL(project.image)" v-on:click="window.open(project.url)" data-toggle="tooltip" data-placement="left" title="launch project" width="100%">
+      </div>
+    </div>
+    <!-- END OF PROJECT ITERATOR -->
+
+    <!--FOOTER-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <div id="about">
+      <div class="row col-sm-offset-0">
+        <div class="hidden-xs hidden-sm col-md-1 text-right">
+            <p style="font-size:0.6em">&nbsp;</p>
+            <a href="https://github.com/visualizedata/" target="_blank">
+              <img data-toggle="tooltip" title="Source" src="/GitHub.6cdce7f1.png" style="width:30px">
+            </a>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">MS Data Visualization</a></p>
+
+          <!--
+            for each student print their
+            name and link to their personal site
+          -->
+          <div v-for="student in students">
+            <a v-bind:href="student.url" target="_blank">{{ student.name }}</a>
+          </div>
+          <!-- end loop -->
+
+          <p><!-- spacer --></p>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <p><a href="http://www.newschool.edu/parsons/" target="_blank">Parsons School of Design</a></p>
+
+          <a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">MS Data Visualization</a>
+          <br>
+          <a href="http://www.newschool.edu/parsons/art-media-technology-school-amt/" target="_blank">Art, Media, and Technology</a>
+          <br>
+          <a href="https://courses.newschool.edu/courses/PGDV5200" target="_blank">PGDV Major Studio 1 (Fall 2019)</a>
+          <br>
+          <a href="http://www.richardthe.com/" target="_blank">Richard The, Assistant Professor of Design and Technology</a>
+          <br>
+          Alec Barrett, Part-Time Faculty
+          <br>
+          <a href="https://zachkrall.com" target="_blank">Zach Krall, Teaching Assistant</a>
+          <p></p>
+        </div>
+        <div class="col-md-2">
+          <br>
+          <p>
+            <a href="https://github.com/metmuseum/openaccess" target="_blank">
+              The Metropolitan Museum of Art Open Access
+            </a>
+          </p>
+          Jennie Choi
+          <br>
+          Loic Tallon
+          <br>
+        </div>
+        <div class="col-md-3">
+          <a href="https://www.metmuseum.org/" target="_blank">
+            <img class="hidden-sm hidden-xs" src="/met.2ff32ca9.png" width="100">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-stripe col-md-12 marginbot-50">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+  </div><!-- end of container div -->
+
+  <script src="/jquery.min.e6203972.js"></script>
+  <script src="/bootstrap.min.fdb78abe.js"></script>
+  <script src="/jquery.easing.min.edfed67b.js"></script>
+  <script src="/vue.min.b801b478.js"></script>
+  <script src="/app.c3f9f951.js"></script>
+</body>
+</html>
