@@ -12,8 +12,6 @@ Additional Years: [2018](https://github.com/visualizedata/met-museum-2018)
 * [MS Data Visualization](http://www.newschool.edu/parsons/ms-data-visualization/)
 * [School of Art, Media, and Technology](http://www.newschool.edu/parsons/art-media-technology-school-amt/)
 * [PGDV Major Studio 1](https://courses.newschool.edu/courses/PGDV5200) (Fall 2019)
-
-
 * [Richard The](http://www.richardthe.com/), Assistant Professor of Design and Technology
 * Alec Barrett, Part-Time Faculty
 * [Zach Krall](https://zachkrall.com/), Teaching Assistant
