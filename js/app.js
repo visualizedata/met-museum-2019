@@ -48,7 +48,7 @@ var app = new Vue({
   methods: {
     stickySidebar() {
       let sticky = this.$refs.sticky
-      let sticky_pos = window.innerHeight - sticky.offsetHeight
+      let sticky_pos = Math.abs(window.innerHeight - sticky.offsetHeight) * -1
       sticky.style.top = sticky_pos + 'px'
     },
     copyLink(event) {
