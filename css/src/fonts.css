@@ -1,0 +1,78 @@
+/*TNS Neue Font*/
+
+/*Regular*/
+@font-face {
+    font-family: 'neue-regular';
+    src: url('../../fonts/Neue-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.neue-regular{
+  font-family: 'neue-regular';
+}
+
+/*Regular Italic*/
+@font-face {
+    font-family: 'neue-regular-italic';
+    src: url('../../fonts/Neue-RegularItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.neue-regular-italic{
+  font-family: 'neue-regular-italic';
+}
+
+/*Bold*/
+@font-face {
+    font-family: 'neue-bold';
+    src: url('../../fonts/Neue-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+.neue-bold{
+  font-family: 'neue-bold';
+}
+
+/*Display Random*/
+@font-face {
+    font-family: 'neue-display-random';
+    src: url('../../fonts/NeueDisplay-Random.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.neue-display-random{
+  font-family: 'neue-display-random';
+}
+
+/*Display Black*/
+@font-face {
+    font-family: 'neue-display';
+    src: url('../../fonts/NeueDisplay-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.neue-display{
+  font-family: 'neue-display';
+}
+
+/*Display Wide*/
+@font-face {
+    font-family: 'neue-display-wide';
+    src: url('../../fonts/NeueDisplay-Wide.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.neue-display-wide{
+  font-family: 'neue-display-wide';
+}
+
+/*Display Ultra*/
+@font-face {
+    font-family: 'neue-display-ultra';
+    src: url('../../fonts/NeueDisplay-Ultra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.neue-display-ultra{
+  font-family: 'neue-display-ultra';
+}
