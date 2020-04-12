@@ -8,7 +8,7 @@ Please be mindful of keeping your project links active. Please submit a pull req
 
 ---
 
-Project data is stored in the [data.json](./data.json) file located in the root directory.
+Project data is stored in the [./data/data.json](./data/data.json) file.
 
 The JSON object contains two arrays: "projects" and "students"
 
@@ -26,7 +26,7 @@ Projects follow this template:
 ```
 
 Author fields should have an **exact text match** to an entry in the `students` array.
-Image urls are relative to the `/img/` folder.
+Image urls are relative to the `./data/images/` folder.
 
 Student entries follow this template:
 
